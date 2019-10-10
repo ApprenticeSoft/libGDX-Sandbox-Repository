@@ -1,0 +1,82 @@
+
+AnimationPlante.png
+format: RGBA8888
+filter: MipMapNearestNearest,MipMapNearestNearest
+repeat: none
+PlanteAnimation
+  rotate: false
+  xy: 1, 1
+  size: 36, 40
+  orig: 36, 40
+  offset: 0, 0
+  index: 1
+PlanteAttaque
+  rotate: false
+  xy: 1, 1
+  size: 36, 40
+  orig: 36, 40
+  offset: 0, 0
+  index: 2
+PlanteAnimation
+  rotate: false
+  xy: 39, 1
+  size: 36, 40
+  orig: 36, 40
+  offset: 0, 0
+  index: 2
+PlanteAnimation
+  rotate: false
+  xy: 77, 1
+  size: 36, 40
+  orig: 36, 40
+  offset: 0, 0
+  index: 3
+PlanteAttaque
+  rotate: false
+  xy: 77, 1
+  size: 36, 40
+  orig: 36, 40
+  offset: 0, 0
+  index: 1
+PlanteAnimation
+  rotate: false
+  xy: 115, 1
+  size: 36, 40
+  orig: 36, 40
+  offset: 0, 0
+  index: 4
+PlanteAnimation
+  rotate: false
+  xy: 153, 1
+  size: 36, 40
+  orig: 36, 40
+  offset: 0, 0
+  index: 5
+PlanteAttaque
+  rotate: false
+  xy: 191, 1
+  size: 36, 40
+  orig: 36, 40
+  offset: 0, 0
+  index: 3
+PlanteAttaque
+  rotate: false
+  xy: 229, 1
+  size: 36, 40
+  orig: 36, 40
+  offset: 0, 0
+  index: 4
+PlanteAttaque
+  rotate: false
+  xy: 267, 1
+  size: 36, 40
+  orig: 36, 40
+  offset: 0, 0
+  index: 5
+Plante
+  rotate: false
+  xy: 305, 9
+  size: 19, 32
+  orig: 19, 32
+  offset: 0, 0
+  index: -1

@@ -1,0 +1,117 @@
+
+AnimationPerso.png
+format: RGBA8888
+filter: MipMapNearestNearest,MipMapNearestNearest
+repeat: none
+Marche
+  rotate: false
+  xy: 1, 9
+  size: 35, 54
+  orig: 35, 54
+  offset: 0, 0
+  index: 1
+Marche
+  rotate: false
+  xy: 38, 11
+  size: 35, 52
+  orig: 35, 52
+  offset: 0, 0
+  index: 3
+Saut_Horizontal
+  rotate: false
+  xy: 75, 12
+  size: 36, 51
+  orig: 36, 51
+  offset: 0, 0
+  index: -1
+Saut_Monte
+  rotate: false
+  xy: 113, 7
+  size: 31, 56
+  orig: 31, 56
+  offset: 0, 0
+  index: -1
+Saut_Dessent
+  rotate: false
+  xy: 146, 1
+  size: 27, 62
+  orig: 27, 62
+  offset: 0, 0
+  index: -1
+Marche
+  rotate: false
+  xy: 175, 9
+  size: 23, 54
+  orig: 23, 54
+  offset: 0, 0
+  index: 2
+Hero
+  rotate: false
+  xy: 200, 10
+  size: 23, 53
+  orig: 23, 53
+  offset: 0, 0
+  index: 1
+Hero
+  rotate: false
+  xy: 225, 9
+  size: 21, 54
+  orig: 21, 54
+  offset: 0, 0
+  index: 2
+Hero
+  rotate: false
+  xy: 248, 9
+  size: 21, 54
+  orig: 21, 54
+  offset: 0, 0
+  index: 3
+Marche
+  rotate: false
+  xy: 271, 9
+  size: 21, 54
+  orig: 21, 54
+  offset: 0, 0
+  index: 4
+Hero
+  rotate: false
+  xy: 294, 9
+  size: 20, 54
+  orig: 20, 54
+  offset: 0, 0
+  index: 4
+Hero
+  rotate: false
+  xy: 316, 9
+  size: 20, 54
+  orig: 20, 54
+  offset: 0, 0
+  index: 5
+Hero
+  rotate: false
+  xy: 338, 9
+  size: 20, 54
+  orig: 20, 54
+  offset: 0, 0
+  index: 7
+Hero
+  rotate: false
+  xy: 360, 9
+  size: 19, 54
+  orig: 19, 54
+  offset: 0, 0
+  index: 6
+Hero
+  rotate: false
+  xy: 381, 10
+  size: 20, 53
+  orig: 20, 53
+  offset: 0, 0
+  index: 8
+Hero
+  rotate: false
+  xy: 403, 11
+  size: 21, 52
+  orig: 21, 52
+  offset: 0, 0
+  index: 9

@@ -1,0 +1,26 @@
+
+AnimationOiseau.png
+format: RGBA8888
+filter: MipMapNearestNearest,MipMapNearestNearest
+repeat: none
+MarcheDroite
+  rotate: false
+  xy: 1, 1
+  size: 56, 40
+  orig: 56, 40
+  offset: 0, 0
+  index: 1
+MarcheDroite
+  rotate: false
+  xy: 59, 8
+  size: 56, 33
+  orig: 56, 33
+  offset: 0, 0
+  index: 3
+MarcheDroite
+  rotate: false
+  xy: 117, 9
+  size: 56, 32
+  orig: 56, 32
+  offset: 0, 0
+  index: 2

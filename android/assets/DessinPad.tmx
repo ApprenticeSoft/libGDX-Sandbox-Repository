@@ -1,0 +1,364 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="300" height="30" tilewidth="32" tileheight="32" nextobjectid="249">
+ <tileset firstgid="1" name="DessinPad" tilewidth="32" tileheight="32" spacing="2" margin="1" tilecount="144">
+  <image source="DessinsPad.png" width="544" height="306"/>
+  <tile id="0">
+   <properties>
+    <property name="Test" value=""/>
+   </properties>
+  </tile>
+  <tile id="10">
+   <animation>
+    <frame tileid="10" duration="100"/>
+    <frame tileid="58" duration="100"/>
+    <frame tileid="90" duration="100"/>
+    <frame tileid="122" duration="100"/>
+   </animation>
+  </tile>
+  <tile id="11">
+   <animation>
+    <frame tileid="11" duration="100"/>
+    <frame tileid="59" duration="100"/>
+    <frame tileid="91" duration="100"/>
+    <frame tileid="123" duration="100"/>
+   </animation>
+  </tile>
+  <tile id="12">
+   <animation>
+    <frame tileid="12" duration="100"/>
+    <frame tileid="60" duration="100"/>
+    <frame tileid="92" duration="100"/>
+    <frame tileid="124" duration="100"/>
+   </animation>
+  </tile>
+  <tile id="13">
+   <animation>
+    <frame tileid="13" duration="100"/>
+    <frame tileid="61" duration="100"/>
+    <frame tileid="93" duration="100"/>
+    <frame tileid="125" duration="100"/>
+   </animation>
+  </tile>
+  <tile id="14">
+   <animation>
+    <frame tileid="14" duration="100"/>
+    <frame tileid="62" duration="100"/>
+    <frame tileid="94" duration="100"/>
+    <frame tileid="126" duration="100"/>
+   </animation>
+  </tile>
+  <tile id="26">
+   <animation>
+    <frame tileid="26" duration="100"/>
+    <frame tileid="74" duration="100"/>
+    <frame tileid="106" duration="100"/>
+    <frame tileid="138" duration="100"/>
+   </animation>
+  </tile>
+  <tile id="27">
+   <animation>
+    <frame tileid="27" duration="100"/>
+    <frame tileid="75" duration="100"/>
+    <frame tileid="107" duration="100"/>
+    <frame tileid="139" duration="100"/>
+   </animation>
+  </tile>
+  <tile id="28">
+   <animation>
+    <frame tileid="28" duration="100"/>
+    <frame tileid="76" duration="100"/>
+    <frame tileid="108" duration="100"/>
+    <frame tileid="140" duration="100"/>
+   </animation>
+  </tile>
+  <tile id="29">
+   <animation>
+    <frame tileid="29" duration="100"/>
+    <frame tileid="77" duration="100"/>
+    <frame tileid="109" duration="100"/>
+    <frame tileid="141" duration="100"/>
+   </animation>
+  </tile>
+  <tile id="30">
+   <animation>
+    <frame tileid="30" duration="100"/>
+    <frame tileid="78" duration="100"/>
+    <frame tileid="110" duration="100"/>
+    <frame tileid="142" duration="100"/>
+   </animation>
+  </tile>
+  <tile id="143">
+   <properties>
+    <property name="Ennemi" value=""/>
+    <property name="Monstre" value="Oiseau"/>
+   </properties>
+  </tile>
+ </tileset>
+ <layer name="Ciel" width="300" height="30">
+  <data encoding="base64" compression="zlib">
+   eJztw0ENAAAMA6GTV/+KZmMPSFg1VVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVfXFA5cZ48g=
+  </data>
+ </layer>
+ <layer name="Nuages" width="300" height="30">
+  <data encoding="base64" compression="zlib">
+   eJzt2rtKxEAUBuCoiLWKInZaiZ3a2KpPoD6BCvaK2nt9bg+4xRYJuLrZuX0f/BBC2AxJ9uTMkK5j2lPkOfLS2LmB8nxEPiNfjZ0bAIDFMlcFSmGuOi7vA6hPrf/rv74Par0eUIMUfV7ONUHfC0xTE4CW5Nyj0TbfnOYhp2uhR6NPDs+ob05nM9Y9K/Fa0BbPaHncM4A65TCHgJadRc4jF6kHUgD9KKR1GbmKXKceCNXSlzIvN5HbyF3qgVAtfWl+dgb2bw/s353x+LE8RB4j9ws+L8CsXiNvkffUA6E4tc7zViPLkZXI0mTbOi+UrdZ53lZkI7IZWZ9sW+cFcnQUOY6cRPYi+511XuD/1kb4zb56ddj9rPMC5GSoXgHkpq9eAeRIvQJqcpp6AEDxDlIPAOCX1CsAAID5+gb7UT3O
+  </data>
+ </layer>
+ <layer name="Arbres Fond" width="300" height="30">
+  <data encoding="base64" compression="zlib">
+   eJzt2s8uJUEUB+BiwQSbsRhiNyQis8NmtkzYM/FviXgAPAFe3Om4cjvEvV2udN1u35f80ulKdbpWJ1V9OiUAAAAAAAAAAAAAAAAAumovsh/5V3ohAGMcRY4j/0svBGCMy8hV5Lr0QqBFzhXddBC5i9yXXgi0qI1zxVbm/B+Z43VnkfPIxSD1+647eXNf1avTEguBQto4V+TWq9XM8VyLkaVB6pbepOl4mxYG19v0Uq8OW34/lDSN54qP6ltu3euaPw3mrA2uD5HHyFODZ6r9ZZ/2mXxv03au+Js53hdN6lWTOdBnd6UXwLfS933ytOt6j029ok3qVVkl/91r0jMbZ1S9mo/MRGbT8Fsv0F0l/92remZzEzx/k0bXq5XIz8hyGn7rBbrrtbdcosdW7a1/pcn2PqPq1Ubkd2Q9+dYLffBRb7neQ87pJ29mvr+a/9m9z7i++G5kO7KT1Cvgvdx6VWmjlqhXwFep/7c9KgAAAAD0yzM/CSLD
+  </data>
+ </layer>
+ <layer name="Sol" width="300" height="30">
+  <data encoding="base64" compression="zlib">
+   eJztm9tuFDEMhqegbbu9K6iF5Q6qLoc7QLSoD8D7PxIJrCWvlYM9STbZmf+TIllJJplJu54/jmeaAAAAAAAAAAAAAAAA58jGlVeuvHblImJfG8a7Olx3yeq2gXFo3ptMHQAAEHeuvHHlrSu3Efu9Ybx3h2vvWd0uMA7N+yFTBwAAxEdXPrnykLC/GMZ7Plz7xOponN+BeV8ydQAAQHC/9N2VH678FLbFXwEAQCu4X6qhr9ZCKO6HuBsAbYG+mkco7tcz7ub952Wi3Z+DWM5NABgR6Cs9XFOF1upbv1v75z/vE+3+HMRybgLAiEBf6eGaKrRWPf3V43R8xiH5PB2fd2iI5bpAp4FeQF+lyWmqUfRVbfz+MZbrAp0GegF9lSamqZbsr3x+r98/at9f3KeHtFeuHQAt0Ff/tUQst1+Tn7Y0f+Xzey35eNynh7RXrh0ALRp9pflmh9ucTaA+5R80Nn9Hb1m7PB+Lfd9zJfpTTn5o7xNbk6X6K79m1vxh3haKkeXaAdCi0Veab3a4zbkL1Kf8g3X8HWuX0NwSmp/QaCfpz+f4q22mfQT8mq1db4Nx0egry57I21xThXSaHN86F/+98PZ95NmkH5H9tfcQ60P1Od24U/SRGjKXl1raLvvU/j4LACupGGeJX9LosVC9VsNo4v+8XZ7n0zXye0TZX/vsubXK6cavij4yzpPLSy1tl30QzwS9SeVdW32Fxi4Z0/p+52NIaFyJ7F+qr1rY9IyPgXauF3P7Us2+tUQ/z4k/8jofQ7RqTrBsUnGVU/4GrRrmVPkVpfqqlp8PPWPO3+TyVjV5rdZ7s8YzU7bPybdqTlBO6pxqFP4E6lr/7lrrqxrU2g+20Fc5f1Pqz2J9TvW33s9YE1AOP6dKfcfF8e+VTbM70gF9Nba+Cs0Z80dz2mWfWu8UrQ1/1QdaUx9vkOdUMfw3XV5b9zznhr46b33Vw1/VtPeG/mvxV9Z44Byb1tT7q63y2udDfzrn1sYTS/MtuX2O+mqE+4G+gr5qRWlMUGP7s2rvf35Nx3vD1LXUn865tfHE0nxLbp+jvhph3p76iudnlLbH+pzKfjL0X0tu/Ai6QWNraaUfRliDXtqpVn1tfQXWxwi6QWNraaUrRliDEXSdtb6lvgLrY4R3ec3/0VHud6k2/BXoyQjv75p7gFHuF3b//wWwPP4CQRFn0w==
+  </data>
+ </layer>
+ <layer name="Eau" width="300" height="30">
+  <data encoding="base64" compression="zlib">
+   eJzt1LEJwDAMRUHt4Wwge//1osZgcBPSuPAdPBCo/xEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8F+rng8BnJZVr8Zy59L8AZyWse+TvYK7vJGQBH8=
+  </data>
+ </layer>
+ <layer name="Herbe (Avant)" width="300" height="30">
+  <data encoding="base64" compression="zlib">
+   eJzt2s1OwkAUBlAewL0L3btQHkJN3KtPoMaAS3EBLtUX9yYyCWloO7T0Bzkn+cIM0Oksmptpp5MJAAAAAAAAAAAAADC068hN5HboiQDUuI88RB6HnghAjafIc+Rl6IkA1HiPLCJ36777Q2DMFhtt94fAWL1O/urVx7rv/hDY1Swyj7xltsuOrfMV+Y78lPTr5lZU9v0scz7A4VlGVpHPzHbZsV04aRmALp1FzveYPtWtSWcNx03jzLecLyV3nQt9S9dl0+t/zC4jV5Hp+jPlcuO3zf9MC/3i8X2qW5MuG46bxlltOV9Kl+tcaCNdl02v/zHLrVdVGapeAcelbK20S3vzOzg26fnA2Ix1Xm2oV9BOej4wNmOdVxtVtWiXqFdA13LWUbsEDt280E77bTn7wVXvVNpXBvZtVWin/bac/eCqdyr3sa982uJYgD5dDD0B4OjlvretXgFDy93PUq+AoeXub6lX8H/9At1RVwY=
+  </data>
+ </layer>
+ <objectgroup name="Collisions" opacity="0.91">
+  <object id="145" x="0" y="800" width="1350" height="160"/>
+  <object id="152" x="1221" y="704" width="32" height="96"/>
+  <object id="153" x="1253" y="736" width="32" height="64"/>
+  <object id="154" x="1285" y="768" width="32" height="32"/>
+  <object id="155" x="805" y="704" width="96" height="96"/>
+  <object id="159" x="1393" y="816">
+   <properties>
+    <property name="Largeur" value="3"/>
+   </properties>
+   <polyline points="0,0 224,0"/>
+  </object>
+  <object id="160" x="1669" y="800" width="608" height="160"/>
+  <object id="161" x="2277" y="160" width="288" height="800"/>
+  <object id="162" x="2021.33" y="704" width="98" height="4.66667">
+   <properties>
+    <property name="Type" value=""/>
+   </properties>
+  </object>
+  <object id="166" x="2176" y="544">
+   <properties>
+    <property name="Largeur" value="3"/>
+    <property name="Vitesse" value="2"/>
+   </properties>
+   <polyline points="0,0 0,-352"/>
+  </object>
+  <object id="167" x="1892.27" y="608.076" width="162.455" height="4.66667">
+   <properties>
+    <property name="Type" value=""/>
+   </properties>
+  </object>
+  <object id="173" x="2565" y="512" width="384" height="448"/>
+  <object id="174" x="2949" y="576" width="96" height="384"/>
+  <object id="175" x="3045" y="512" width="96" height="448"/>
+  <object id="176" x="3141" y="576" width="64" height="384"/>
+  <object id="178" x="3205" y="512" width="512" height="448"/>
+  <object id="179" x="2917" y="160" width="64.3333" height="64"/>
+  <object id="180" x="3077" y="160" width="64" height="64"/>
+  <object id="181" x="3237" y="160" width="64" height="64"/>
+  <object id="189" x="3717" y="768" width="640" height="32"/>
+  <object id="191" x="4357" y="480" width="224" height="288"/>
+  <object id="192" x="4581" y="416" width="96" height="64"/>
+  <object id="193" x="4677" y="352" width="96" height="64"/>
+  <object id="194" x="4773" y="288" width="159" height="287"/>
+  <object id="195" x="3813" y="512" width="96" height="96"/>
+  <object id="196" x="4037" y="512" width="64" height="96"/>
+  <object id="197" x="4229" y="512" width="64" height="96"/>
+  <object id="199" x="3397" y="160" width="64" height="64"/>
+  <object id="205" x="4933" y="576" width="608" height="32"/>
+  <object id="209" x="5189" y="544" width="32" height="32"/>
+  <object id="216" x="5605" y="576" width="160" height="256"/>
+  <object id="217" x="5861" y="576" width="160" height="256"/>
+  <object id="218" x="6117" y="576" width="160" height="256"/>
+  <object id="220" x="6405" y="576" width="96" height="256"/>
+  <object id="221" x="6501" y="512" width="32" height="64"/>
+  <object id="223" x="6533" y="448" width="32" height="64"/>
+  <object id="224" x="6565" y="416" width="32" height="32"/>
+  <object id="225" x="6597" y="384" width="192" height="448"/>
+  <object id="232" x="6917" y="448" width="96" height="64"/>
+  <object id="233" x="7173" y="448" width="96" height="64"/>
+  <object id="235" x="5925" y="320" width="32" height="64"/>
+  <object id="236" x="6181" y="320" width="32" height="64"/>
+  <object id="244" x="6789" y="640" width="608" height="192"/>
+  <object id="245" x="7429" y="640" width="320" height="192"/>
+  <object id="248" x="830" y="849.333">
+   <properties>
+    <property name="Eau" value=""/>
+   </properties>
+   <polyline points="0,0 160,0 158,0"/>
+  </object>
+ </objectgroup>
+ <objectgroup name="Spawn">
+  <object id="143" name="Hero" gid="128" x="128" y="800" width="32" height="32"/>
+  <object id="146" gid="144" x="544" y="800" width="32" height="32">
+   <properties>
+    <property name="Monstre" value="Castor"/>
+   </properties>
+  </object>
+  <object id="147" gid="144" x="960" y="800" width="32" height="32">
+   <properties>
+    <property name="Monstre" value="Castor"/>
+   </properties>
+  </object>
+  <object id="148" gid="144" x="1056" y="800" width="32" height="32">
+   <properties>
+    <property name="Monstre" value="Castor"/>
+   </properties>
+  </object>
+  <object id="168" gid="144" x="2720" y="160" width="32" height="32">
+   <properties>
+    <property name="Monstre" value="Oiseau"/>
+    <property name="Rayon" value="4"/>
+   </properties>
+  </object>
+  <object id="171" gid="144" x="3328" y="512" width="32" height="32">
+   <properties>
+    <property name="Plante" value="Fleur"/>
+   </properties>
+  </object>
+  <object id="182" gid="144" x="3744" y="640" width="32" height="32">
+   <properties>
+    <property name="BalleSautante" value=""/>
+    <property name="Hauteur" value="17"/>
+   </properties>
+  </object>
+  <object id="183" gid="144" x="3928" y="640" width="32" height="32">
+   <properties>
+    <property name="BalleSautante" value=""/>
+    <property name="Hauteur" value="16"/>
+   </properties>
+  </object>
+  <object id="184" gid="144" x="3976" y="640" width="32" height="32">
+   <properties>
+    <property name="BalleSautante" value=""/>
+    <property name="Delai" value="1000"/>
+    <property name="Hauteur" value="21"/>
+   </properties>
+  </object>
+  <object id="185" gid="144" x="4120" y="640" width="32" height="32">
+   <properties>
+    <property name="BalleSautante" value=""/>
+    <property name="Delai" value="500"/>
+    <property name="Hauteur" value="17"/>
+    <property name="Interval" value="4100"/>
+   </properties>
+  </object>
+  <object id="186" gid="144" x="4168" y="640" width="32" height="32">
+   <properties>
+    <property name="BalleSautante" value=""/>
+    <property name="Hauteur" value="17"/>
+   </properties>
+  </object>
+  <object id="200" gid="144" x="4774" y="288" width="32" height="32">
+   <properties>
+    <property name="Comportement" value="Tombe"/>
+    <property name="Monstre" value="Castor"/>
+   </properties>
+  </object>
+  <object id="201" gid="144" x="4809" y="288" width="32" height="32">
+   <properties>
+    <property name="Comportement" value="Tombe"/>
+    <property name="Monstre" value="Castor"/>
+   </properties>
+  </object>
+  <object id="202" gid="144" x="5408" y="576" width="32" height="32">
+   <properties>
+    <property name="Monstre" value="Grenouille"/>
+   </properties>
+  </object>
+  <object id="203" gid="144" x="5312" y="576" width="32" height="32">
+   <properties>
+    <property name="Monstre" value="Grenouille"/>
+   </properties>
+  </object>
+  <object id="204" gid="144" x="5280" y="576" width="32" height="32">
+   <properties>
+    <property name="Comportement" value="TombePas"/>
+    <property name="Monstre" value="Castor"/>
+   </properties>
+  </object>
+  <object id="210" gid="128" x="5664" y="608" width="32" height="32">
+   <properties>
+    <property name="LameRotative" value=""/>
+   </properties>
+  </object>
+  <object id="213" gid="128" x="5920" y="384" width="32" height="32">
+   <properties>
+    <property name="Balance" value=""/>
+   </properties>
+  </object>
+  <object id="215" gid="128" x="6176" y="384" width="32" height="32">
+   <properties>
+    <property name="Balance" value=""/>
+   </properties>
+  </object>
+  <object id="226" gid="144" x="6720" y="384" width="32" height="32">
+   <properties>
+    <property name="Comportement" value="Tombe"/>
+    <property name="Monstre" value="Castor"/>
+   </properties>
+  </object>
+  <object id="227" gid="144" x="1984" y="512" width="32" height="32">
+   <properties>
+    <property name="Monstre" value="Oiseau"/>
+    <property name="Rayon" value="4"/>
+   </properties>
+  </object>
+  <object id="228" gid="144" x="7168" y="448" width="32" height="32">
+   <properties>
+    <property name="Monstre" value="Grenouille"/>
+   </properties>
+  </object>
+  <object id="229" gid="144" x="7200" y="448" width="32" height="32">
+   <properties>
+    <property name="Plante" value="Fleur"/>
+   </properties>
+  </object>
+  <object id="230" gid="128" x="6944" y="480" width="32" height="32">
+   <properties>
+    <property name="LameRotative" value=""/>
+   </properties>
+  </object>
+  <object id="231" gid="128" x="6944" y="480" width="32" height="32">
+   <properties>
+    <property name="Angle" value="180"/>
+    <property name="LameRotative" value=""/>
+   </properties>
+  </object>
+  <object id="237" gid="144" x="7168" y="640" width="32" height="32">
+   <properties>
+    <property name="Comportement" value="TombePas"/>
+    <property name="Monstre" value="Castor"/>
+   </properties>
+  </object>
+  <object id="238" gid="144" x="7200" y="640" width="32" height="32">
+   <properties>
+    <property name="Comportement" value="TombePas"/>
+    <property name="Monstre" value="Castor"/>
+   </properties>
+  </object>
+  <object id="239" gid="144" x="7232" y="640" width="32" height="32">
+   <properties>
+    <property name="Comportement" value="TombePas"/>
+    <property name="Monstre" value="Castor"/>
+   </properties>
+  </object>
+  <object id="242" gid="144" x="7584" y="640" width="32" height="32">
+   <properties>
+    <property name="Monstre" value="Grenouille"/>
+   </properties>
+  </object>
+  <object id="243" gid="144" x="7040" y="640" width="32" height="32">
+   <properties>
+    <property name="Monstre" value="Grenouille"/>
+   </properties>
+  </object>
+ </objectgroup>
+</map>

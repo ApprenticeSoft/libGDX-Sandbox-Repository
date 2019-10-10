@@ -1,0 +1,200 @@
+
+Images.png
+format: RGBA8888
+filter: MipMapLinearNearest,MipMapLinearNearest
+repeat: none
+boutonDroite
+  rotate: false
+  xy: 1, 123
+  size: 132, 132
+  orig: 132, 132
+  offset: 0, 0
+  index: -1
+boutonGauche
+  rotate: false
+  xy: 135, 123
+  size: 132, 132
+  orig: 132, 132
+  offset: 0, 0
+  index: -1
+boutonSaut
+  rotate: false
+  xy: 269, 123
+  size: 132, 132
+  orig: 132, 132
+  offset: 0, 0
+  index: -1
+Bouton
+  rotate: false
+  xy: 1, 33
+  size: 88, 88
+  split: 43, 44, 43, 44
+  orig: 88, 88
+  offset: 0, 0
+  index: -1
+BoutonChecked
+  rotate: false
+  xy: 403, 167
+  size: 88, 88
+  split: 42, 45, 43, 44
+  orig: 88, 88
+  offset: 0, 0
+  index: -1
+BoutonInactif
+  rotate: false
+  xy: 91, 33
+  size: 88, 88
+  split: 43, 44, 43, 44
+  orig: 88, 88
+  offset: 0, 0
+  index: -1
+Balle
+  rotate: false
+  xy: 181, 46
+  size: 74, 75
+  orig: 74, 75
+  offset: 0, 0
+  index: -1
+BoutonInactifPetit
+  rotate: false
+  xy: 257, 67
+  size: 54, 54
+  split: 27, 26, 27, 26
+  orig: 54, 54
+  offset: 0, 0
+  index: -1
+BoutonPetit
+  rotate: false
+  xy: 313, 67
+  size: 54, 54
+  split: 27, 26, 27, 26
+  orig: 54, 54
+  offset: 0, 0
+  index: -1
+LameRotative
+  rotate: false
+  xy: 493, 159
+  size: 16, 96
+  orig: 16, 96
+  offset: 0, 0
+  index: -1
+BoutonPetitChecked
+  rotate: false
+  xy: 403, 111
+  size: 54, 54
+  split: 27, 26, 25, 28
+  orig: 54, 54
+  offset: 0, 0
+  index: -1
+BoutonDebut
+  rotate: false
+  xy: 459, 103
+  size: 52, 54
+  split: 24, 27, 25, 28
+  orig: 52, 54
+  offset: 0, 0
+  index: -1
+Plateforme4
+  rotate: false
+  xy: 369, 89
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+BoutonDebutChecked
+  rotate: false
+  xy: 403, 55
+  size: 52, 54
+  split: 23, 28, 25, 28
+  orig: 52, 54
+  offset: 0, 0
+  index: -1
+Plateforme5
+  rotate: false
+  xy: 369, 55
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+BoulePointe
+  rotate: false
+  xy: 457, 63
+  size: 38, 38
+  orig: 38, 38
+  offset: 0, 0
+  index: -1
+Plateforme6
+  rotate: false
+  xy: 257, 33
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+imageTable
+  rotate: false
+  xy: 1, 6
+  size: 25, 25
+  split: 12, 12, 12, 12
+  orig: 25, 25
+  offset: 0, 0
+  index: -1
+Plateforme2
+  rotate: false
+  xy: 1, 1
+  size: 32, 3
+  orig: 32, 3
+  offset: 0, 0
+  index: -1
+Plateforme7
+  rotate: false
+  xy: 497, 69
+  size: 12, 32
+  orig: 12, 32
+  offset: 0, 0
+  index: -1
+Plateforme1
+  rotate: false
+  xy: 459, 162
+  size: 26, 3
+  orig: 26, 3
+  offset: 0, 0
+  index: -1
+Barre
+  rotate: false
+  xy: 181, 34
+  size: 10, 10
+  split: 5, 4, 5, 4
+  orig: 10, 10
+  offset: 0, 0
+  index: -1
+BoutonNotationChecked
+  rotate: false
+  xy: 181, 34
+  size: 10, 10
+  split: 5, 4, 4, 5
+  orig: 10, 10
+  offset: 0, 0
+  index: -1
+BoutonNotation
+  rotate: false
+  xy: 291, 55
+  size: 10, 10
+  split: 4, 5, 5, 4
+  orig: 10, 10
+  offset: 0, 0
+  index: -1
+Plateforme3
+  rotate: false
+  xy: 457, 58
+  size: 12, 3
+  orig: 12, 3
+  offset: 0, 0
+  index: -1
+Fond
+  rotate: false
+  xy: 291, 50
+  size: 3, 3
+  split: 1, 1, 1, 1
+  orig: 3, 3
+  offset: 0, 0
+  index: -1

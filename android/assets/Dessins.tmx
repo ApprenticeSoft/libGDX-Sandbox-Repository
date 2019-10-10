@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="250" height="30" tilewidth="32" tileheight="32" nextobjectid="51">
+ <tileset firstgid="1" name="Dessins" tilewidth="32" tileheight="32" tilecount="153">
+  <image source="Dessins.png" width="544" height="288"/>
+  <tile id="10">
+   <animation>
+    <frame tileid="10" duration="100"/>
+    <frame tileid="61" duration="100"/>
+    <frame tileid="95" duration="100"/>
+    <frame tileid="129" duration="100"/>
+   </animation>
+  </tile>
+  <tile id="11">
+   <animation>
+    <frame tileid="11" duration="100"/>
+    <frame tileid="62" duration="100"/>
+    <frame tileid="96" duration="100"/>
+    <frame tileid="130" duration="100"/>
+   </animation>
+  </tile>
+  <tile id="12">
+   <animation>
+    <frame tileid="12" duration="100"/>
+    <frame tileid="63" duration="100"/>
+    <frame tileid="97" duration="100"/>
+    <frame tileid="131" duration="100"/>
+   </animation>
+  </tile>
+  <tile id="13">
+   <animation>
+    <frame tileid="13" duration="100"/>
+    <frame tileid="64" duration="100"/>
+    <frame tileid="98" duration="100"/>
+    <frame tileid="132" duration="100"/>
+   </animation>
+  </tile>
+  <tile id="27">
+   <animation>
+    <frame tileid="27" duration="100"/>
+    <frame tileid="78" duration="100"/>
+    <frame tileid="112" duration="100"/>
+    <frame tileid="146" duration="100"/>
+   </animation>
+  </tile>
+  <tile id="28">
+   <animation>
+    <frame tileid="28" duration="100"/>
+    <frame tileid="79" duration="100"/>
+    <frame tileid="113" duration="100"/>
+    <frame tileid="147" duration="100"/>
+   </animation>
+  </tile>
+  <tile id="29">
+   <animation>
+    <frame tileid="29" duration="100"/>
+    <frame tileid="80" duration="100"/>
+    <frame tileid="114" duration="100"/>
+    <frame tileid="148" duration="100"/>
+   </animation>
+  </tile>
+  <tile id="30">
+   <animation>
+    <frame tileid="30" duration="100"/>
+    <frame tileid="81" duration="100"/>
+    <frame tileid="115" duration="100"/>
+    <frame tileid="149" duration="100"/>
+   </animation>
+  </tile>
+ </tileset>
+ <layer name="Ciel" width="250" height="30">
+  <data encoding="base64" compression="zlib">
+   eJztw0ENAAAMA6ETWP96ZmJPSFg1VVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVdWHB17iswk=
+  </data>
+ </layer>
+ <layer name="Nuages" width="250" height="30">
+  <data encoding="base64" compression="zlib">
+   eJzt1rENgDAMRcHsDWxAmBmXaVGEHDl30u/dPbcGAAAAALCGI3bGruxDgN/csR57sg+BosaWznRVk2FdY0tnuqrJALAv/z7U59+Hb7QR6tNGAMjj34b6/NtQg2ZDfZoNAAAAAAAAAAAAAECWF6s/GNk=
+  </data>
+ </layer>
+ <layer name="Arbres Fond" width="250" height="30">
+  <data encoding="base64" compression="zlib">
+   eJzt1sEJAjEQBdBpTkULUEHZqwpbgJagNu2IiAh7zUTkPfi3kD+XkIkAAAAAAAAAAAAAAGaZeWbRexCgmXVmk9n2HgRo5pA5Zk4FXXYH6GOZuRR12R2gn+c73xX0VO4OwLeq//zdtSrsAyLO8Xp74591AR/XzC1zb3D3PjNMdA3TxwEAAAAAAAAAAAAA+GEP9IcPdA==
+  </data>
+ </layer>
+ <layer name="Sol" width="250" height="30">
+  <data encoding="base64" compression="zlib">
+   eJzt2sFOwzAMgGEzNAZXQGNwBQRDghMgYG/G0+McohovhS5ru2T7P8mSo0LXShg77UQAAAAAAAAAAAAAAAAAAAAAAAAADGmqceLWE41jjdOdXBGAPtjanmtcmWNhfaFxqXE98nUB6I+t7Q+NT3MsrO807jVWI18XsG9mGkfSzMg2H3pe9rUNoD/f0ux/Fxrn0szINmdeBuri+3bc/4a5+FaaGdnmTy3nmUi6/5ecx9nkTNZnlZlbT1vOUVrO80l4vm/Hen7XeNV4S+SpOv+r/5ecx9nkRtZnlYVbz1vOUVrOvAVvKb97daznTft5OM9Dy8+XnMdneal7W7p1LffH88nD5OdN+z7a1nbo1ama79LPa9elzoEhhX1iqNHcPZqfN+37aN8L2mr+v35eu9T/sC/Zz3tFmXL2vnaP5mv30RyzNXzI/Tyy97YSZmCMJ9TcpntD+/fqa7etzg+5nwO7FmoufHck1VtzcvsdlJx+To8D6pLTz180nrf83G1/H0B3Of2cOgfqkvN+ljoH6mJ7eNc9PnUO9O8HgTVCOw==
+  </data>
+ </layer>
+ <layer name="Eau" width="250" height="30">
+  <data encoding="base64" compression="zlib">
+   eJztzsEJACAMBMH81V7svzrTREiQGdjvcREAAAAAAAAAAAAAAAAAAAAAAAAAAAB0WdnOTuG2ZgfAX273AQAAAAAAGOABfNsFTA==
+  </data>
+ </layer>
+ <layer name="Herbe" width="250" height="30">
+  <data encoding="base64" compression="zlib">
+   eJzt1kFOAjEUgOE5gEdQbgCeQokXQIMHEELQrbpAtsClfYmSEEITRGqn4/cl/6ZpZrroS9o0AAAAAAAAAAAAAMBfuYluo2HpgwDZjKL76KH0QYBsnqJJNC19EOAsDr3R76K3I/YBdUi90ffn3Fse6pV6o+/Pubc81GvWfM30+87a6/fa487a+MA+oA6raB1tTlgDAID/ah49Ry+lDwL82LHzu4g+ouUZ/32hVkd3pOb3MrqKehn+uf222h3d148G0XXGb6vdwW/0Ew0SazLn1Kf0/ZU5J7/S91fmnPxK31+Zc/IrfX9lzrvoEx4unUA=
+  </data>
+ </layer>
+ <objectgroup name="Collisions">
+  <object id="4" x="0.666667" y="736" width="415.333" height="96"/>
+  <object id="5" x="512" y="704" width="128" height="128"/>
+  <object id="10" x="416" y="800" width="96" height="32"/>
+  <object id="14" x="736" y="610" width="128" height="349.333"/>
+  <object id="15" x="864" y="576" width="64" height="96"/>
+  <object id="26" x="928" y="543.875" width="96" height="96"/>
+  <object id="27" x="1024" y="544" width="128" height="416"/>
+  <object id="29" x="1312" y="608" width="1474" height="64"/>
+  <object id="31" x="3136" y="608" width="1344" height="64"/>
+  <object id="33" x="2848" y="608" width="64" height="350.667"/>
+  <object id="34" x="3008" y="608" width="32" height="350.667"/>
+  <object id="35" x="1920.5" y="480" width="32" height="64"/>
+  <object id="36" x="2016" y="447.5" width="32" height="64"/>
+  <object id="37" x="2144" y="448" width="96" height="64"/>
+ </objectgroup>
+ <objectgroup name="Spawn">
+  <object id="11" name="Hero" gid="136" x="97" y="731" width="32" height="32"/>
+  <object id="28" gid="153" x="958.667" y="536" width="32" height="32">
+   <properties>
+    <property name="Comportement" value="TombePas"/>
+    <property name="Monstre" value="1"/>
+   </properties>
+  </object>
+  <object id="38" gid="153" x="2163.33" y="440.667" width="32" height="32">
+   <properties>
+    <property name="Comportement" value="TombePas"/>
+    <property name="Monstre" value="1"/>
+   </properties>
+  </object>
+  <object id="43" gid="153" x="2479.33" y="602" width="32" height="32">
+   <properties>
+    <property name="Comportement" value="TombePas"/>
+    <property name="Monstre" value="1"/>
+   </properties>
+  </object>
+  <object id="46" gid="153" x="2653.33" y="599.333" width="32" height="32">
+   <properties>
+    <property name="Comportement" value="TombePas"/>
+    <property name="Monstre" value="1"/>
+   </properties>
+  </object>
+  <object id="47" gid="153" x="3473.33" y="602" width="32" height="32">
+   <properties>
+    <property name="Comportement" value="TombePas"/>
+    <property name="Monstre" value="1"/>
+   </properties>
+  </object>
+  <object id="48" gid="153" x="3538.67" y="600.667" width="32" height="32">
+   <properties>
+    <property name="Comportement" value="TombePas"/>
+    <property name="Monstre" value="1"/>
+   </properties>
+  </object>
+  <object id="49" gid="153" x="3597.33" y="599.333" width="32" height="32">
+   <properties>
+    <property name="Comportement" value="TombePas"/>
+    <property name="Monstre" value="1"/>
+   </properties>
+  </object>
+  <object id="50" gid="153" x="3648.67" y="602" width="32" height="32">
+   <properties>
+    <property name="Comportement" value="TombePas"/>
+    <property name="Monstre" value="1"/>
+   </properties>
+  </object>
+ </objectgroup>
+</map>

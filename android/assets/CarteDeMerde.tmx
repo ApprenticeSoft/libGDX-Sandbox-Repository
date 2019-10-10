@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="500" height="50" tilewidth="32" tileheight="32" nextobjectid="1">
+ <tileset firstgid="1" name="image" tilewidth="32" tileheight="32" tilecount="256">
+  <image source="image.png" width="512" height="512"/>
+ </tileset>
+ <layer name="Fond" width="500" height="50">
+  <data encoding="base64" compression="zlib">
+   eJzt1TENwDAABLFADITyR1EQN7zUejAG33PO/YAHAH5s/bDPAaBbP+xzAOjWD/scALr1wz4HgG79sM8BoFs/7HMA6NYP+xwAuvXDPgeAbv2wzwGgWz/scwDo1g/7HAC69cM+B4Bu/bDPAaBbP+xzAOjWD/scALr1wz4HgG79sM8BoFs/7HMA6NYP+xwAuvXDPgeAbv2wzwGgWz/scwDo1g/7HAC69cM+B4Bu/bDPAaBbP+xzAOjWD/scALr1wz4HgG79sM8BoFs/7HMA6NYP+xwAuvXDPgeAbv2wzwGgWz/scwDo1g/7HAC69cM+B4Bu/bDPAaBbP+xzAOjWD/scALr1wz4HgG79sM8BoFs/7HMA6NYP+xwAuvXDPgeAbv2wzwGgWz/scwDo1g/7HAC69cM+B4Bu/bDPAaB7AW+XBN0=
+  </data>
+ </layer>
+ <layer name="Sol" width="500" height="50">
+  <data encoding="base64" compression="zlib">
+   eJzt1TdrV1EAxuF/onFSwRInFayTCrFkUiGWTCrYMqlg/Ry2L2Cf7bOK+glUUHCygKJgB8XBDrr4BjKEQDA31/yPMc8DP8507n2302gAANTXklrTuDQ+taUJRRcBAFVNSVPTtDQ9tacZRRcBAFXNSXPTvDQ/LUgLiy4CAKrqSEvTsrQ8rUidRRcBAFV1pTVpbVqX1qfuoosAgKo2py1pa9qWtqeeoosAgKp2pz1pb9qX9qcDRRcBAAAAAMDfczfda8IdAGDkPElPm3AHABg579OHJtwBAEbOz/SrCXcAgJEzMU2q2OQiSwGAwcxMK9OqtDrNGkKziywFAAbT+55vSBvTpob3HABGo973fEfamXalg2nxH1pSYigAMKhFDW81AAAAAAD8j26l2+lO6SEAwLA9TI/S49JDAIBhe5PepnelhwAAw/YtfU8/Sg8BAACAUehZul96BABQy8f0vPQIAAAAAAAAAAAAAAAAAAAAAIAxrCW1pnEDGp/aCu4CAIZuSpqapg1oemovuAsAGLo56VA63NeRfufR1FluGgAwRB3pWDre14l+58lGvff8VDpdsTM1/gcAY1VXOpvO9XW+33khddf49sV0qWKXa/wPAMaqzelKutrXtX7ng9RT49vecwBonhfpZXo1oNc1v3s93ajYzZr/BICx6lP6nL4M6GvJUQAAAAAAAAAAAAAAAAD8U34DiKtyPA==
+  </data>
+ </layer>
+ <objectgroup name="Personnage"/>
+</map>

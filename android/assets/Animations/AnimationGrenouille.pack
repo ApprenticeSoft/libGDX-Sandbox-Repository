@@ -1,0 +1,47 @@
+
+AnimationGrenouille.png
+format: RGBA8888
+filter: MipMapNearestNearest,MipMapNearestNearest
+repeat: none
+Saut_Monte
+  rotate: false
+  xy: 1, 16
+  size: 39, 37
+  orig: 39, 37
+  offset: 0, 0
+  index: -1
+Saut_Descent
+  rotate: false
+  xy: 42, 28
+  size: 49, 25
+  orig: 49, 25
+  offset: 0, 0
+  index: -1
+MarcheDroite
+  rotate: false
+  xy: 93, 28
+  size: 27, 25
+  orig: 27, 25
+  offset: 0, 0
+  index: 1
+MarcheDroite
+  rotate: false
+  xy: 93, 28
+  size: 27, 25
+  orig: 27, 25
+  offset: 0, 0
+  index: 2
+MarcheDroite
+  rotate: false
+  xy: 93, 28
+  size: 27, 25
+  orig: 27, 25
+  offset: 0, 0
+  index: 3
+MarcheDroite
+  rotate: false
+  xy: 42, 1
+  size: 27, 25
+  orig: 27, 25
+  offset: 0, 0
+  index: 4

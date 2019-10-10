@@ -1,2 +1,3 @@
-# libGDX-Sandbox-Repository
+# libGDX Sandbox Repository
 A repository that I use to test and learn new things with libGDX.
+Tiled Map, shaders, animation...
